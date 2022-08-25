@@ -1,4 +1,4 @@
-package emil.noren;
+package lab1;
 
 public class Lab1 {
 
@@ -11,11 +11,9 @@ public class Lab1 {
  		
 		for(int i = 1; i <= 100; i++) {
 			
-			String ans;
-//			System.out.println(i);
-//			String ans = New String(fizz);
-			
-			if (i % 3 == 0 && i % 5 == 0) {
+			if (i == 42) {
+				System.out.println(guide);
+			} else if (i % 3 == 0 && i % 5 == 0) {
 				System.out.println("Fizzbuzz");
 			} else if(i % 3 == 0) {
 				System.out.println("Fizz");
