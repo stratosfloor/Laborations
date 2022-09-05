@@ -4,9 +4,6 @@ public class Lab1 {
 
 	public static void main(String[] args) {
 
-		char fizz[] = {'f', 'i', 'z', 'z'};
-		char buzz[] = {'b', 'u', 'z', 'z'};
-
 		String guide = "Answer to the Ultimate Question of Life, the Universe, and Evrything";
  		
 		for(int i = 1; i <= 100; i++) {
