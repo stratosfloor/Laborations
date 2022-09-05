@@ -57,8 +57,10 @@ public class Lab2 {
 					if (searchForWord.equals(fileSearcher.next().toLowerCase())) {
 						try {
 							System.out.println(("Ord nummer " + i + " i filen: " + file.getCanonicalPath()));
-							// break if only printing once;
-							//
+							/*
+							 * break if only printing once per file
+							 * break;
+							 */
 						} catch (IOException e) {
 							e.printStackTrace();
 						}
